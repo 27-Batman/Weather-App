@@ -54,6 +54,11 @@ To use this application:
 - Securely store your API key (e.g., using environment variables or backend proxies).  
 - Update the source code with your new API key where required.  
 
+For example, in the `index.js` file, update the following line (line 4):  
+```javascript
+const apiKey = "YOUR_NEW_API_KEY";
+```
+
 ---
 
 ## 🚧 Future Enhancements
